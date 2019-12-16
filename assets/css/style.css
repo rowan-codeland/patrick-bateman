@@ -1,0 +1,37 @@
+ @import url("https://use.typekit.net/imi1uak.css");
+
+
+
+/*-----------------------------------------Navbar*/
+header{
+    margin: 0;
+    font-family: 'adobe-garamond-pro', serif;
+    font-style: normal;
+    font-size: 140%;
+    letter-spacing: 10%;
+}
+
+/*-----------------------------------------Font*/
+body{
+    font-family: 'adobe-garamond-pro', serif;
+    font-style: normal;
+    letter-spacing: 10%;
+    text-align: center;
+    background-color: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
+    /* https://www.transparenttextures.com/ */
+    display: block;
+    }
+
+.bateman{
+    font-size: 150%;
+}
+
+/*-----------------------------------------Footer*/
+.footer-header{
+
+}
+
+.footer-paragraph{
+
+}
