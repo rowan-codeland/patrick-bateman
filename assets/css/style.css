@@ -27,7 +27,15 @@ body{
     font-size: 150%;
 }
 
+/*-----------------------------------------Remove automatic margins on contanier-fluid*/
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /*-----------------------------------------Footer*/
+
+
 .footer-header{
 
 }
