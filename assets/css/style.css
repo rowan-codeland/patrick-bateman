@@ -11,13 +11,12 @@ header{
     letter-spacing: 10%;
 }
 
-/*-----------------------------------------Font*/
+/*-----------------------------------------General*/
 body{
     font-family: 'adobe-garamond-pro', serif;
     font-style: normal;
     letter-spacing: 10%;
-    text-align: center;
-    /* background-color: #fff;
+    background-color: #F8F9FA;
     background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
     /* https://www.transparenttextures.com/ */
     display: block;
@@ -25,6 +24,17 @@ body{
 
 .bateman{
     font-size: 150%;
+}
+
+.index-banner {
+    max-height: 100px;
+}
+
+
+/*----------------------------------------- Containers*/
+
+.container-1{
+    max-height: 100px;
 }
 
 /*-----------------------------------------Remove automatic margins on contanier-fluid*/
@@ -50,16 +60,17 @@ body{
     margin-bottom: 10px;
 }
 
-/*-----------------------------------------Patrick headshot*/
-.patrickimage {
-    height: auto;
-    width: auto;
-    margin-bottom: 0px;
+/*-----------------------------------------Images*/
+
+.patrickimage{
+    max-width: auto;
+    height: 75%;
+    padding: 25px 50px 75px;
 }
 
-
-.homepage-container {
-    height: 500px;
+.homepage-banner-text{
+    padding: 25px 25px 75px;
+    text-align: left;
 }
 
 /*-----------------------------------------http://jsfiddle.net/2wNb7/*/
@@ -81,10 +92,11 @@ body{
     display: inline;
     font-family: 'adobe-garamond-pro', serif;
     font-style: normal;
+    text-transform: uppercase;
     font-weight: 700;
     color: #bf0000;
     font-size: 150%;
-    letter-spacing: 10%;  
+    letter-spacing: 10%;
 }
 
 .patrickintro:hover .prehover {
