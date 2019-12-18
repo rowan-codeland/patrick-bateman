@@ -26,20 +26,23 @@ body{
     font-size: 150%;
 }
 
-.index-banner {
-    max-height: 100px;
+/*----------------------------------------- Buttons*/
+
+.btn-outline-danger {
+    color: #BF0000;
+    border-color: #BF0000;
 }
 
-
-/*----------------------------------------- Containers*/
-
-.container-1{
-    max-height: 100px;
+.btn-outline-danger:hover {
+    background-color: #BF0000;
+    border-color: #BF0000;
+    color: #fff
 }
+
 
 /*-----------------------------------------Remove automatic margins on contanier-fluid*/
 .container-fluid{
-
+    padding: 0px;
 }
 
 /*-----------------------------------------Footer*/
@@ -61,10 +64,15 @@ body{
 
 /*-----------------------------------------Images*/
 
+#wrapper{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .patrickimage{
-    max-width: auto;
-    height: 75%;
-    padding: 25px 50px 75px;
+    max-width: 100%;
+    /* height: 75%; */
+    
 }
 
 .homepage-banner-text{
@@ -72,34 +80,24 @@ body{
     text-align: left;
 }
 
-/*-----------------------------------------http://jsfiddle.net/2wNb7/*/
-
-.onhover {
-    display: none;
+@media screen and (min-width: 1110px) {
+  #wrapper {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
 
-.prehover {
-    display: inline;
-    font-family: 'adobe-garamond-pro', serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 150%;
-    letter-spacing: 10%;
+/*-----------------------------------------font*/
+
+.bannerhp{
+    font-size: 90%
 }
 
-.patrickintro:hover .onhover {
-    display: inline;
-    font-family: 'adobe-garamond-pro', serif;
-    font-style: normal;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #bf0000;
-    font-size: 150%;
-    letter-spacing: 10%;
+h2 {
+    font-weight: 600;
+    font-size: 2rem;
 }
 
-.patrickintro:hover .prehover {
-    display: none;  
+h3 {
+    font-size: 1.5rem;
 }
-
-/*-----------------------------------------http://jsfiddle.net/2wNb7/*/
