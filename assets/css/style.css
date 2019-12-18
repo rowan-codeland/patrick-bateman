@@ -19,7 +19,7 @@ body{
     background-color: #F8F9FA;
     background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
     /* https://www.transparenttextures.com/ */
-    display: block;
+    padding-right: 0px;
     }
 
 .bateman{
@@ -39,8 +39,7 @@ body{
 
 /*-----------------------------------------Remove automatic margins on contanier-fluid*/
 .container-fluid{
-    padding-left: 0px;
-    padding-right: 0px;
+
 }
 
 /*-----------------------------------------Footer*/
