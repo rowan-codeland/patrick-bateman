@@ -45,11 +45,15 @@ body{
     padding: 0px;
 }
 
+#wrapper{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 /*-----------------------------------------Footer*/
 
 
 .footer-header{
-
 }
 
 .footer-paragraph{
@@ -63,11 +67,6 @@ body{
 }
 
 /*-----------------------------------------Images*/
-
-#wrapper{
-    padding-left: 40px;
-    padding-right: 40px;
-}
 
 .patrickimage{
     max-width: 100%;
@@ -85,6 +84,9 @@ body{
     padding-left: 20%;
     padding-right: 20%;
   }
+}
+
+.media {
 }
 
 /*-----------------------------------------font*/
