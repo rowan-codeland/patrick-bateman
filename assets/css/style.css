@@ -16,10 +16,10 @@ body{
     font-family: 'adobe-garamond-pro', serif;
     font-style: normal;
     letter-spacing: 10%;
-    background-color: #F8F9FA;
+    /* background-color: #F8F9FA;
     background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
     /* https://www.transparenttextures.com/ */
-    padding-right: 0px;
+    padding-right: 0px; */
     }
 
 .bateman{
@@ -102,4 +102,46 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+}
+
+
+.restaurant-container {
+    height: 80vh;
+
+    background: url("../images/restaurant.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    color: #fff
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-review {
+    background: url("../images/restaurant.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 50px 20px;
+
+}
+
+.restaurant-panel {
+    padding: 100px 0px;
 }
