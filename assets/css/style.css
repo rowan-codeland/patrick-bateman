@@ -39,15 +39,15 @@ body{
     color: #fff
 }
 
-/* .youtube-button {
-    background-color: #ff000056;
+.youtube-button {
+    background-color: #181819;
     text-align: center;
     color: #efefef;    
     font-size: 25px;
     border-radius: 10px 0px 0px 10px;
     min-height: 30px;
     min-width: 20%;
-    padding: 0px 25px;
+    padding: 5px 10px 0px;
     vertical-align: middle;
 }
 
@@ -57,21 +57,21 @@ body{
 }
 
 .spotify-button {
-    background-color: rgba(29, 185, 84, 0.26);
+    background-color: #4A4A4B;
     text-align: center;
     color: #efefef;
     font-size: 25px;
     border-radius: 0px 10px 10px 0px;
     min-height: 30px;
     min-width: 20%;
-    padding: 0px 25px;
+    padding: 5px 10px 0px;
     vertical-align: middle;
 }
 
 .spotify-button:hover {
     background-color: #1db954;
     color: #ffffff;
-} */
+}
 
 
 
@@ -145,19 +145,29 @@ h3 {
 
 .restaurant-container {
     height: 80vh;
-
     background: url("../images/restaurant.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
+    color: #fff
+}
 
+.music-container {
+    height: 80vh;
+    background: url("../images/vinyl.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     color: #fff
 }
 
@@ -211,7 +221,7 @@ h3 {
 }
 
 .music-review {
-    background: url("../images/Red-gig.jpg") no-repeat;
+    background: url("../images/hueylewisandthenews.png") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
