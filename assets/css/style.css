@@ -213,6 +213,15 @@ h3 {
     box-shadow: 5px 10px 8px #888888;
 }
 
+.music-review {
+    background: url("../images/hueylewisandthenews.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+}
+
 .music-panel {
     margin: 100px 0px;
     background: #f5f5f5;
@@ -220,14 +229,49 @@ h3 {
     box-shadow: 5px 10px 8px #888888;
 }
 
-.music-review {
+.music-review-left {
     background: url("../images/hueylewisandthenews.png") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     border-radius: 20px 0px 0px 20px;
+}
 
+.music-panel-left {
+    margin: 100px 0px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.wellness-review-left {
+    background: url("../images/wellness-card.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.product-panel {
+    margin: 10px 0px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.product {
+    background: #ffffff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.product-image {
+    height: 50%;
+}
 
 .img-responsive {
     width: 100%;
