@@ -11,17 +11,6 @@ header{
     letter-spacing: 10%;
 }
 
-/*-----------------------------------------General*/
-body{
-    font-family: 'adobe-garamond-pro', serif;
-    font-style: normal;
-    letter-spacing: 10%;
-    /* background-color: #F8F9FA;
-    background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
-    /* https://www.transparenttextures.com/ */
-    padding-right: 0px; */
-    }
-
 .bateman{
     font-size: 150%;
 }
@@ -86,15 +75,6 @@ body{
     padding-right: 40px;
 }
 
-/*-----------------------------------------Footer*/
-
-
-.footer-header{
-}
-
-.footer-paragraph{
-
-}
 
 /*-----------------------------------------Form*/
 
@@ -142,7 +122,18 @@ h3 {
     font-size: 1.5rem;
 }
 
+/*-----------------------------------------General*/
+body{
+    font-family: 'adobe-garamond-pro', serif;
+    font-style: normal;
+    letter-spacing: 10%;
+    background-color: #F8F9FA;
+    background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
+    https://www.transparenttextures.com/
+    }
 
+
+/*-----------------------------------------Page Cards and card images*/
 .restaurant-container {
     height: 80vh;
     background: url("../images/restaurant.jpg") no-repeat bottom right fixed;
@@ -171,6 +162,19 @@ h3 {
     color: #fff
 }
 
+.wellness-container {
+    height: 80vh;
+    background: url("../images/wellness-water.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff
+}
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -223,7 +227,7 @@ h3 {
 }
 
 .music-panel {
-    margin: 100px 0px;
+    margin: 0px 0px;
     background: #f5f5f5;
     border-radius: 20px;
     box-shadow: 5px 10px 8px #888888;
@@ -237,15 +241,31 @@ h3 {
     background-size: cover;
     border-radius: 20px 0px 0px 20px;
 }
+.whitney-review-left {
+    background: url("../images/whitneyhouston.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+.genesis-review-left {
+    background: url("../images/genesis.jpg") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+}
 
 .music-panel-left {
-    margin: 100px 0px;
+    margin: 50px 0px;
     background: #f5f5f5;
     border-radius: 20px;
     box-shadow: 5px 10px 8px #888888;
 }
 
-.wellness-review-left {
+.wellness-image {
     background: url("../images/wellness-card.png") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -254,24 +274,11 @@ h3 {
     border-radius: 20px 0px 0px 20px;
 }
 
-.product-panel {
-    margin: 10px 0px;
+.wellness-panel{
+    margin: 100px 0px;
     background: #f5f5f5;
     border-radius: 20px;
     box-shadow: 5px 10px 8px #888888;
-}
-.product {
-    background: #ffffff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border-radius: 20px 0px 0px 20px;
-}
-
-.product-image {
-    height: 50%;
-}
 
 .img-responsive {
     width: 100%;
@@ -279,16 +286,4 @@ h3 {
 
 .col-responsive{
     padding: 0%;
-}
-
-.card-columns {
-  @include media-breakpoint-only(lg) {
-    column-count: 4;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 5;
-  }
-}
-
-
 }
